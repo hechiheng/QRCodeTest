@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#f5f5f5"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/qrcodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4caf50"
+        android:text="二维码扫描"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/barcodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#4caf50"
+        android:text="条形码扫描"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#4caf50"
+        android:text="生成二维码"
+        android:textColor="#fff" />
+
+</LinearLayout>
